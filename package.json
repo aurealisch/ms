@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass:dev": "sass --watch --embed-source-map src/scss:public/styles",
+    "sass:prod": "sass --no-source-map --style compressed src/scss:public/styles"
+  },
+  "devDependencies": {
+    "sass": "^1.69.7"
+  }
+}
