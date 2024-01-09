@@ -1,5 +1,9 @@
 @import "_base";
 
+$background-color-r: 0;
+$background-color-g: 0;
+$background-color-b: 0;
+
 %positioning {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -15,24 +19,30 @@
   padding-right: 5%;
 }
 
-%blur {
-  backdrop-filter: blur(10px);
-}
-
 header {
   @extend %positioning;
   @extend %outer-positioning;
-  @extend %blur;
   text-align: center;
-  font-size: xx-large;
-  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 250%;
+  text-shadow: rgb(
+      $background-color-r,
+      $background-color-g,
+      $background-color-b
+    )
+    1px 0 3.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 navigation {
   @extend %positioning;
   @extend %outer-positioning;
-  @extend %blur;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(
+    $background-color-r,
+    $background-color-g,
+    $background-color-b,
+    0.8
+  );
   display: flex;
   a {
     color: #f2f2f2;
@@ -41,7 +51,12 @@ navigation {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 20px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(
+      $background-color-r,
+      $background-color-g,
+      $background-color-b,
+      0.8
+    );
     border-width: 5px;
     border-style: groove;
     text-align: center;
@@ -58,15 +73,23 @@ main {
   @extend %positioning;
   @extend %outer-positioning;
   @extend %inner-positioning;
-  @extend %blur;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(
+    $background-color-r,
+    $background-color-g,
+    $background-color-b,
+    0.7
+  );
 }
 
 footer {
   @extend %positioning;
   @extend %outer-positioning;
   @extend %inner-positioning;
-  @extend %blur;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(
+    $background-color-r,
+    $background-color-g,
+    $background-color-b,
+    0.9
+  );
   color: gray;
 }
