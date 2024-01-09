@@ -19,7 +19,7 @@
   backdrop-filter: blur(10px);
 }
 
-.logo {
+header {
   @extend %positioning;
   @extend %outer-positioning;
   @extend %blur;
@@ -28,7 +28,7 @@
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.navigation {
+navigation {
   @extend %positioning;
   @extend %outer-positioning;
   @extend %blur;
@@ -54,7 +54,7 @@
   }
 }
 
-.main {
+main {
   @extend %positioning;
   @extend %outer-positioning;
   @extend %inner-positioning;
@@ -62,7 +62,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.footer {
+footer {
   @extend %positioning;
   @extend %outer-positioning;
   @extend %inner-positioning;
