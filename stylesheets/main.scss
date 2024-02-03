@@ -33,7 +33,7 @@ nav {
   display: flex;
 
   a {
-    color: #f2f2f2;
+    color: rgb(242, 242, 242);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -50,7 +50,7 @@ nav {
   }
 
   a:hover {
-    color: aqua;
+    color: rgb(0, 255, 0);
   }
 }
 
@@ -66,5 +66,5 @@ footer {
   @extend %outer-positioning;
   @extend %inner-positioning;
   background-color: rgba(0, 0, 0, 0.9);
-  color: gray;
+  color: rgb(128, 128, 128);
 }

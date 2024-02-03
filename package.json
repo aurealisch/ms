@@ -1,7 +1,8 @@
 {
+  "main": "index.js",
   "scripts": {
-    "pug": "pug -w sources/views -o out/views",
-    "sass": "sass -w sources/stylesheets:out/stylesheets"
+    "pug": "pug -w views -o public",
+    "sass": "sass -w stylesheets:public"
   },
   "devDependencies": {
     "pug": "^3.0.2",
