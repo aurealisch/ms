@@ -14,13 +14,13 @@ html {
 body {
   margin-top: 2%;
   margin-bottom: 2%;
-  font-family: Comic Sans MS, Comic Sans;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #f2f2f2;
 }
 
 footer,
 main,
-navigation,
+nav,
 header {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -28,7 +28,7 @@ header {
 
 footer,
 main,
-navigation,
+nav,
 header {
   margin-left: 20%;
   margin-right: 20%;
@@ -46,14 +46,15 @@ header {
   text-shadow: #000 1px 0 3.5px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: Comic Sans MS, Comic Sans;
 }
 
-navigation {
+nav {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
 }
 
-navigation a {
+nav a {
   color: #f2f2f2;
   padding-left: 10px;
   padding-right: 10px;
@@ -67,9 +68,10 @@ navigation a {
   text-decoration: none;
   float: left;
   flex-grow: 1;
+  font-family: Comic Sans MS, Comic Sans;
 }
 
-navigation a:hover {
+nav a:hover {
   color: aqua;
 }
 
