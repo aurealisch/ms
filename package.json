@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "pug": "pug -w sources/views -o out/views",
+    "sass": "sass -w sources/stylesheets:out/stylesheets"
+  },
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.70.0"
+  }
+}

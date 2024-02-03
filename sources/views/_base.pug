@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    block consts
+    title=title
+    link(rel='stylesheet' href=main)
+    style.
+      html {
+        background-image: url(#{backgroundImage})
+      }
+  body
+    header
+      a(href=home) Улитка Маркус
+    nav
+      a(href=albums) Альбомы
+      a(href=artists) Артисты
+      a(href=songs) Песни
+    section
+      block section
+    footer
+      p | Copyright @ 2024 mmlvgx.xp3.biz | All Rights Reserved
